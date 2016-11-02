@@ -57,7 +57,7 @@ def number_to_short_month_name(month_number)
     end
 
     def volume(radius)
-      return Math::PI * 4/3 * (radius ** 3)
+      return (Math::PI * 4/3 * (radius ** 3)).round(2)
     end
 
     def farenheit(farenheit)
